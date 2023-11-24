@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.white,
         body: SafeArea(
           child: Padding(
             padding: EdgeInsets.only(top: 25),
@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
                         onTap: () {},
                         child: Icon(
                           Icons.dehaze,
-                          color: Colors.white,
+                          color: Colors.black,
                           size: 35,
                         ),
                       ),
@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
                         onTap: () {},
                         child: Icon(
                           Icons.person,
-                          color: Colors.white,
+                          color: Colors.black,
                           size: 35,
                         ),
                       ),

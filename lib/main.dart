@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:splash_screen_example/widgets/CartPage.dart';
+import 'package:splash_screen_example/widgets/ListData.dart';
+import 'package:splash_screen_example/widgets/ListPage.dart';
 import 'home.page.dart';
 
 void main(){
@@ -25,6 +28,8 @@ void initState() {
       routes: {
         "/" : (context) => HomePage(),
         "CartPage": (context) => CartPage(),
+        "ListPage": (context) => ListPage(),
+        "ListData":(context) => ListData(),
       },
     );
   }

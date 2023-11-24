@@ -5,7 +5,7 @@ class ItemsWidget extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     List<String> Food = ["Double Beef Burger", "Chicken Burger", "Ice Float", "Teh Botol","Kebab","Air Mineral","Hot Dog","Kentang Goreng"];
-    List<String> Harga = ["RP.25.000.00", "RP.20.000.00", "RP.15.000.00", "RP.4.000.00", "RP.16.000.00","RP.3.000","RP.15.000.00","RP.11.000.00"];
+    List<String> Harga = ["RP.50.000.00", "RP.35.000.00", "RP.15.000.00", "RP.4.000.00", "RP.16.000.00","RP.3.000","RP.15.000.00","RP.11.000.00"];
     List<String> Slogan = ["Hot Beef Burger", "Hot Chicken Burger", "Soft Drink with Ice Cream", "Cold Ice Tea","Slice Beef With Vegetables","Cold and Fresh","Sausage With Bread","Fried Potatoes"];
     
    return GridView.count(
